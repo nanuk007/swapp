@@ -1,0 +1,9 @@
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: #3bdb9be8;
+    max-width: -webkit-fill-available;
+    min-height: 80px;
+    bottom:0;
+}

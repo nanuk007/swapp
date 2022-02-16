@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    background:linear-gradient(45deg,rgba(15, 197, 39, 0.5),rgb(255, 255, 255)); 
+    max-width: -webkit-fill-available;
+    min-height: 60px;
+}
+.navmenu{
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: flex-end;
+    min-width: 100%;
+
+}
+.navmenu a{
+    padding: 2.5px;
+    color: #33584ae8;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    
+
+}
+
+.navmenu a :hover{
+    color: #c9f5e3e8;
+}
