@@ -14,18 +14,23 @@
 }
 .components{
     
-  position: absolute;
-  min-width: 762px;
-  min-height: 100%;
+  display: flex;
+  background: linear-gradient(45deg,rgba(255, 255, 255, 0.137),rgba(253, 252, 252, 0.548));
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  z-index: 5;
+  min-width: 70%;
+  min-height: 450px;
+  margin-bottom: 20px;
   margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 180px;
-
+  margin-top: 185px;
 }
 .container{
   position: absolute;
+  margin: 0;
+    padding: 0;
   /* background-color: rgba(188, 219, 209, 0.329); */
-  min-height: 100%;
+  min-height: -webkit-fill-available;
   min-width: 100%;
   display: flex;
   z-index: 2;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Suspense } from 'react/cjs/react.development';
+import { NavLink } from 'react-router-dom';
 import '../css/header.css'
 
 
@@ -7,19 +7,19 @@ const Header = (props) => {
   return (<div className='header'>
     <div className='navmenu'>
       <ul>
-        <li><a href='/about'>About</a></li>
-        <li><a href='/portfolio'>Portfolio</a></li>
-        <li><a href='/connect'>Connect</a></li>
+      {/* <NavLink to="/">Home</NavLink> */}
+      <NavLink to='/about'>About</NavLink>
+      <NavLink to='/portfolio'>Portfolio</NavLink>
+      <NavLink to='/connect'>Connect</NavLink>
       </ul>
     </div>
   </div>);
 }
 
 const RootHeader = (props)=>{
-  let imagename = 'sunup';
 
   return (
-    <div className='rootheader' style={{ backgroundImage: `url(require("images/${imagename}.webp"))` }}>
+    <div className='rootheader' >
       <Header props={props}/>
     </div>
   )

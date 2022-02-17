@@ -44,8 +44,8 @@
     margin: 0;
     min-height: 20px;
 }
-.navmenu ul li:hover{
- background-color: rgba(15, 197, 39, 0.5);
+.navmenu ul a:hover{
+ 
  min-height: 100%;
 }
 .navmenu ul a{
