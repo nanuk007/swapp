@@ -2,12 +2,34 @@
   height: 746px;
   text-align: center;
 }
+.main{
 
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background:#98ebcf;
+    min-width: 100%;
+    min-height: -webkit-fill-available;
+
+}
+.components{
+    
+  position: absolute;
+  min-width: 762px;
+  min-height: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 180px;
+
+}
 .container{
- position:absolute;
-  background-color: aquamarine;
+  position: absolute;
+  /* background-color: rgba(188, 219, 209, 0.329); */
   min-height: 100%;
   min-width: 100%;
+  display: flex;
+  z-index: 2;
+  background: url("/Users/utkarshkumar/Desktop/work/utkarshportfolio/build/images/sundown.webp");
 } 
 
 .App-logo {

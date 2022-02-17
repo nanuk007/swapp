@@ -12,17 +12,19 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="container">
-        <Header />
-        <div className='App'>
+      <div className='main'>
+        <div className="container">
+          <Header />
+          <div className='components'>
           <Routes>
             <Route exact={true} path='/' component={Home} />
             <Route exact={true} path='/about' component={About} />
             <Route exact={true} path='/portfolio' component={Portfolio} />
             <Route exact={true} path='/connect' component={Connect} />
           </Routes>
+          </div>
+          <Footer />
         </div>
-        <Footer />
       </div>
     </BrowserRouter>
 

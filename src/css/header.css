@@ -1,28 +1,60 @@
 .header{
     display: flex;
-    margin-top: 10px;
-    justify-content: space-between;
-    background:linear-gradient(45deg,rgba(15, 197, 39, 0.5),rgb(255, 255, 255)); 
+    z-index: 6;
+    margin-top: 111px;
     max-width: -webkit-fill-available;
     min-height: 60px;
+    background: linear-gradient(45deg,rgba(255, 255, 255, 0.137),rgba(253, 252, 252, 0.548));
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    margin-left: 15%;
+    margin-right: 15%;
+    /* -webkit-backdrop-filter: blur(5px); */
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+
+}
+
+.rootheader{
+        margin: 0;
+        padding: 0;
+        top: 0;
+        min-width: 100%;
+        position: absolute;
+        z-index: 3;
+        
 }
 .navmenu{
+    margin: 0;
+    padding: 0;
+    min-height: 70px;
+    min-width: 100%;
+}
+.navmenu ul{
+    list-style-type: none;
     margin-top: 30px;
     display: inline-flex;
     justify-content: flex-end;
     min-width: 100%;
+    padding: 0;
 
 }
-.navmenu a{
+
+.navmenu ul li{
+    padding: 0%;
+    margin: 0;
+    min-height: 20px;
+}
+.navmenu ul li:hover{
+ background-color: rgba(15, 197, 39, 0.5);
+ min-height: 100%;
+}
+.navmenu ul a{
     padding: 2.5px;
     color: #33584ae8;
     font-weight: 200;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
+    min-height: 100%;
     
 
-}
-
-.navmenu a :hover{
-    color: #c9f5e3e8;
 }
