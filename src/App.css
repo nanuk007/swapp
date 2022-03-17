@@ -33,8 +33,9 @@
   min-height: -webkit-fill-available;
   min-width: 100%;
   display: flex;
-  z-index: 2;
+  z-index: -1;
   background: url("/Users/utkarshkumar/Desktop/work/utkarshportfolio/build/images/sundown.webp");
+  background-repeat: round;
 } 
 
 .App-logo {
@@ -58,9 +59,48 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.about-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+    min-height: 95%;
+    margin-top: 17px;
+    margin-bottom: 20px;  
+    border-radius: 0px 0px 20px 20px;
+    padding: 0;
+}
 
-
-
+.tab{
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(45deg,rgba(255, 255, 255, 0.137),rgba(253, 252, 252, 0.548));
+  min-width: 80px;
+  min-height: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 0px 0px 0px 20px;
+}
+.tab ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.tab ul li{
+ padding-bottom: 15px;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(45deg,rgba(255, 255, 255, 0.137),rgba(253, 252, 252, 0.548));
+  width: 100%;
+  min-height: 100%;
+  padding: 5px;
+  border-radius: 0px 0px 20px 0px;
+}
 .App-link {
   color: #61dafb;
 }

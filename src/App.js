@@ -14,6 +14,7 @@ const App = () => {
     <BrowserRouter>
     
         <div className="container">
+      
           <Header />
           <div className='components'>
           

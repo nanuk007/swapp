@@ -13,7 +13,14 @@
     /* border: 1px solid rgba(255, 255, 255, 0.3); */
 
 }
-
+.connectlink{
+  color: white;   
+}
+.connectbtn{
+    border: 0px;
+    border-radius: 20px 0px;
+    background: linear-gradient(45deg, #665795, transparent);
+}
 .rootheader{
         margin: 0;
         padding: 0;
@@ -49,12 +56,19 @@
  min-height: 100%;
 }
 .navmenu ul a{
-    padding: 2.5px;
-    color: #33584ae8;
+    padding: 12.5px;
+    color: #e2f0eae8;
     font-weight: 200;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: none;
+    font-family: sans-serif;
     min-height: 100%;
-    
+    text-decoration: none;
+}
 
+.connectlink a{
+    padding: 12.5px;
+    color: #060e14e8;
+    font-weight: 200;
+    font-family: sans-serif;
+    min-height: 100%;
+    text-decoration: none;
 }
