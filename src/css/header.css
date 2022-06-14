@@ -19,14 +19,14 @@
 .connectbtn{
     border: 0px;
     border-radius: 20px 0px;
-    background: linear-gradient(45deg, #665795, transparent);
+    background: linear-gradient(45deg, var(--theme-text), transparent);
 }
 .rootheader{
         margin: 0;
         padding: 0;
-        top: 0;
+     
         min-width: 100%;
-        position: absolute;
+      
         z-index: 3;
         
 }
@@ -57,7 +57,7 @@
 }
 .navmenu ul a{
     padding: 12.5px;
-    color: #e2f0eae8;
+    color:var(--theme-text);
     font-weight: 200;
     font-family: sans-serif;
     min-height: 100%;

@@ -19,22 +19,24 @@
   border-radius: 0px 0px 20px 20px;
   box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
   z-index: 5;
-  min-width: 70%;
+  max-width: 70%;
   min-height: 450px;
   margin-bottom: 20px;
   margin-left: 15%;
-  margin-top: 185px;
+  margin-top: 2px;
+
 }
 .container{
-  position: absolute;
+
   margin: 0;
-    padding: 0;
-  /* background-color: rgba(188, 219, 209, 0.329); */
+  padding: 0;
+  background-color: var(--theme-main-bg);
   min-height: -webkit-fill-available;
   min-width: 100%;
   display: flex;
+  flex-direction: column;
   z-index: -1;
-  background: url("/Users/utkarshkumar/Desktop/work/utkarshportfolio/build/images/sundown.webp");
+  /* background: url("/Users/utkarshkumar/Desktop/work/utkarshportfolio/build/images/sundown.webp"); */
   background-repeat: round;
 } 
 
@@ -63,11 +65,14 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-    min-height: 95%;
-    margin-top: 17px;
-    margin-bottom: 20px;  
-    border-radius: 0px 0px 20px 20px;
-    padding: 0;
+  /* min-height: 95%; */
+  /* margin-top: 17px; */
+  /* margin-bottom: 20px; */
+  border-radius: 0px 0px 20px 20px;
+  border-bottom: 6px solid var(--theme-bg);
+  border-right: 1px solid var(--theme-bg);
+  border-left: 1px solid var(--theme-bg);
+  padding: 0;
 }
 
 .tab{
@@ -76,30 +81,31 @@
   background: linear-gradient(45deg,rgba(255, 255, 255, 0.137),rgba(253, 252, 252, 0.548));
   min-width: 80px;
   min-height: 100%;
-  margin-bottom: 20px;
-  padding: 5px;
   border-radius: 0px 0px 0px 20px;
 }
 .tab ul{
   list-style-type: none;
-  padding: 0;
-  margin: 0;
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 38px;
 }
 .tab ul li{
- padding-bottom: 15px;
+  text-align: left;
+  color:var(--theme-text);
+  cursor: pointer;
+
 }
 .content{
   display: flex;
   flex-direction: row;
   background: linear-gradient(45deg,rgba(255, 255, 255, 0.137),rgba(253, 252, 252, 0.548));
   width: 100%;
-  min-height: 100%;
+  min-height: 80%;
   padding: 5px;
   border-radius: 0px 0px 20px 0px;
+  overflow-y: auto;
 }
 .App-link {
   color: #61dafb;
